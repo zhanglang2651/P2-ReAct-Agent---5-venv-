@@ -22,6 +22,9 @@ ENV/
 .idea/
 *.swp
 
+# WorkBuddy 工具目录（项目元数据，不再入库）
+.workbuddy/
+
 # OS
 .DS_Store
 Thumbs.db

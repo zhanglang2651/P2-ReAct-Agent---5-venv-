@@ -16,9 +16,10 @@ Python 3.14 · OpenAI SDK · DeepSeek-V3（硅基流动平台）· python-dotenv
 1. `python -m venv venv` 并激活
 2. `pip install openai python-dotenv`
 3. 复制 `.env.example` 为 `.env`，填入你的 API key
-4. `python main.py`（输入 `quit` 退出）
+4. `python agent.py`（输入 `quit` 退出）
 
 ## 项目结构
+agent.py       —— P2 ReAct Agent 入口（5 工具 + 错误恢复）
 chat.py        —— API 调用封装（单轮 + 流式）
 main.py        —— 聊天机器人主循环
 test_s2~s7.py  —— 各知识点的验证实验
